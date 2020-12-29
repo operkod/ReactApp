@@ -1,0 +1,29 @@
+.promo__outer {
+  background-color: #2e6aab;
+}
+.promo {
+  display: flex;
+  &__information {
+    width: 65%;
+    padding-left: 30px;
+    &-title {
+      width: 80%;
+      font-size: 4.2rem;
+      line-height: 4.6rem;
+      color: #ffffff;
+      padding: 38px 0 28px;
+      span {
+        font-weight: 700;
+      }
+    }
+    &-text {
+      width: 75%;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      color: #ffffff;
+    }
+  }
+  &__img {
+    width: 35%;
+  }
+}

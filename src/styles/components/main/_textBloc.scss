@@ -1,0 +1,23 @@
+.text {
+  padding: 20px 20px 0 20px;
+  &__bloc {
+    padding-bottom: 30px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+    &-title {
+      font-size: 1.8rem;
+      line-height: 20px;
+    }
+    &-text {
+      margin: 10px 0;
+      font-size: 1.4rem;
+      line-height: 18px;
+    }
+    &-point {
+      margin-left: 10px;
+      font-size: 1.4rem;
+      line-height: 18px;
+    }
+  }
+}

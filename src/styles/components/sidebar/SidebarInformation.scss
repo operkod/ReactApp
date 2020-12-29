@@ -1,0 +1,21 @@
+.sidebar__information {
+  padding: 10px;
+  &-title {
+    padding: 5px 0;
+  }
+}
+.sidebar__tab {
+  margin: 7px 0;
+  padding: 5px;
+  border: 1px solid $color-blue;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: $color-blue;
+  &-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.sidebar__tab-active {
+  transform: rotate(180deg);
+}

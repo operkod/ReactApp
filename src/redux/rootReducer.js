@@ -1,0 +1,17 @@
+import { applyMiddleware, combineReducers, compose, createStore } from "redux"
+import thunk from "redux-thunk"
+import { credit } from "./creditReducer"
+import { filter } from "./filterReducer"
+
+export const rootReducer = combineReducers({
+  credit,
+  filter
+})
+
+export const store = createStore(
+  rootReducer,
+  compose(
+    applyMiddleware(thunk),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
+)

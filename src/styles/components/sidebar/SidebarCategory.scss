@@ -1,0 +1,15 @@
+.sidebar__category {
+  padding: 15px;
+  &-title {
+    padding: 5px 0;
+    font-size: 1.7rem;
+    line-height: 20px;
+  }
+  &-subtitle {
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: $color-blue;
+    margin: 10px 20px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,64 @@
+.slider {
+  padding: 20px 0;
+}
+.slider__item {
+  width: 160px;
+  &-img {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  }
+  &-title {
+    padding: 16px 0 7px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: $color-purple;
+  }
+  &-btn {
+    display: flex;
+    justify-content: center;
+    button {
+      color: $color-purple;
+      background-color: $color-wite;
+      border: 1px solid $color-purple;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-out;
+      &:hover {
+        background-color: $color-purple;
+        color: $color-wite;
+      }
+    }
+  }
+}
+
+.slick-arrow {
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: $color-purple !important;
+  &:hover {
+    background-color: $color-purple;
+  }
+}
+.slick-prev {
+  left: 10px;
+}
+.slick-next {
+  right: 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+  line-height: 1.65;
+}
+.slick-dots {
+  li {
+    display: none;
+  }
+}

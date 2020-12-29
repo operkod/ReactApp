@@ -1,0 +1,36 @@
+.credit__input-date {
+  height: 50px;
+  margin: 0 15px 0 30px;
+  height: 50px;
+  width: 50%;
+  &-wrap {
+    border: 1px solid $color-grey;
+    color: $color-grey;
+  }
+  &__title {
+    font-size: 1.4rem;
+    line-height: 18px;
+    margin-left: 10px;
+  }
+  &__subtitle {
+    padding-bottom: 9px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .list__img {
+      padding: 0 17px;
+      &.active {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+.credit__input-date__list {
+  .list {
+    padding-left: 10px;
+    cursor: pointer;
+  }
+}

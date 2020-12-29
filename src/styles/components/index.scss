@@ -1,0 +1,11 @@
+.main {
+  position: relative;
+}
+.search {
+  position: sticky;
+  top: 20px;
+  z-index: 10;
+}
+@import "./main/";
+@import "./sidebar/";
+@import "./footer/";

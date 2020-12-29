@@ -1,0 +1,27 @@
+.questions {
+  margin-top: 10px;
+  background-color: $color-wite;
+  padding-bottom: 15px;
+  &__title {
+    padding: 40px 0 20px 22px;
+    font-size: 2.4rem;
+    line-height: 26px;
+  }
+}
+
+.question__item {
+  margin: 10px 20px;
+  padding: 15px 20px 17px;
+  border: 1px solid #dde1e4;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.question__subtitle {
+  font-size: 1.8rem;
+  line-height: 20px;
+}
+.question__text {
+  padding-top: 5px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}

@@ -1,0 +1,25 @@
+.credit__info {
+  display: flex;
+  padding: 10px;
+  background-color: $color-wite;
+  &-wrap {
+    background-color: #f4f6f8;
+    width: 50%;
+    padding: 30px 20px;
+  }
+  &-title {
+    width: 70%;
+    font-size: 2.1rem;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+  &-text {
+    width: 70%;
+    font-size: 1.4rem;
+    line-height: 18px;
+    &--small {
+      font-size: 1.1rem;
+      line-height: 24px;
+    }
+  }
+}

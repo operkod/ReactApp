@@ -1,0 +1,73 @@
+@import "./../../node_modules/antd/dist/antd.css";
+@import "vars.scss";
+// @import "slick-carousel/slick/slick.css";
+// // @import "slick-carousel/slick/slick-theme.css";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body,
+html,
+#root,
+.wrapper {
+  height: 100%;
+  color: $color-black;
+  background-color: #eceef3;
+}
+.wrapper {
+  font-size: 1.6rem;
+}
+
+a {
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1301px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+}
+
+.content {
+  display: flex;
+}
+
+.btn {
+  font-size: 1.3rem;
+  line-height: 20px;
+  margin: 0;
+  padding: 8px 42px 12px;
+  text-transform: uppercase;
+  background: #f29610;
+  color: $color-wite;
+  border: none;
+  box-shadow: 0px 3px 5px rgba(180, 110, 7, 0.26);
+  border-radius: 2px;
+  transition: background-color 0.2s ease-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #e08700;
+  }
+}
+.section {
+  margin: 10px 0;
+  background-color: $color-wite;
+}
+
+@import "./components/";
