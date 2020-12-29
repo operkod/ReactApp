@@ -68,9 +68,7 @@ const QuestionsBloc = () => {
   return (
     <div className="questions">
       <div className="questions__title">Часто задаваемые вопросы:</div>
-      {questions.map((obj) => (
-        <QuestionItem key={obj.id} item={obj} />
-      ))}
+      {questions && questions.map((obj) => <QuestionItem key={obj.id} item={obj} />)}
     </div>
   )
 }
